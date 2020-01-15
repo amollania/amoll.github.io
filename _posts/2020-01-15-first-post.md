@@ -5,29 +5,29 @@ categories: git command
 ---
 
 git config
-----
+
 ```git config -global user.name "[name]"
 git config -global user.email "[email adress]"```
 
 
 git init
-----
+
 ```git init [repository name]```
 
 
 git clone
-----
+
 ```git clone [url]```
 
 
 git add
-----
+
 ```git add [file]```
 ```git add *```
 
 
 git commit
-----
+
 ```git commit -m "[Type in the commit message]"```
 This ommand records or snapshots the file permanently in the version history.
 ```git commit -a```
@@ -35,7 +35,7 @@ This command commits any files you've added with the git add command and also co
 
 
 git diff
-----
+
 This command shows the file differences which are not yet staged.
 
 ```git diff```
@@ -49,7 +49,7 @@ This command shows the differences between the two branches mentioned.
 
 
 git reset
-----
+
 ```git reset [file]```
 This command unstages the file, but it preserves the file contents.
 
@@ -61,19 +61,19 @@ This command discards all history and goes back to the specified commit.
 
 
 git status
-----
+
 ```git status```
 This command lists all the files that have to be committed.
 
 
 git rm
-----
+
 ```git rm [file]```
 This command deletes the file from your working directory and stages the deletion.
 
 
 git log
-----
+
 ```git log```
 This command is used to list the version history for the current branch.
 
@@ -82,19 +82,19 @@ This command lists version history for a file, including the renaming of file al
 
 
 git show
-----
+
 ```git show [commit]```
 This command shows the metada$$anonymous$$nd content changes of the specified commit.
 
 
 git tag
-----
+
 ```git tag [commitID]```
 This command is used to give tags to the specified commit.
 
 
 git branch
-----
+
 ```git branch```
 This command lists all the local branches in the current repository.
 
@@ -106,7 +106,7 @@ This command deletes the feature brach.
 
 
 git checkout
-----
+
 ```git checkout [branch name]```
 This command is used to switch from one branch to another.
 
@@ -115,19 +115,19 @@ This command creates a new branch and also switches to it.
 
 
 git merge
-----
+
 ```git merge [branch name]```
 This command merges the specified branch's history into the current branch.
 
 
 git remote
-----
+
 ```git remote add [variable name] [Remote Server Link]```
 This command is used to connect your local repository to the remote server.
 
 
 git push
-----
+
 ```git push [variable name] master```
 This command sends the committed changes of master branch to yuour remote repository.
 
@@ -142,13 +142,13 @@ This command deletes a branch on your remote repository.
 
 
 git pull
-----
+
 ```git pull [Repository Link]```
 This command fetches and merges changes on the remote server to your working directory.
 
 
 git stash
-----
+
 ```git stash save```
 This command temporarily stoers all the modified tracked files.
 

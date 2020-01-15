@@ -107,9 +107,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Amoll"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Hello! I'm interested in the program and I like Nagasaki Champon.
+I'm preparing a studio right now."
   location         : "Somewhere"
   email            :
   links:
